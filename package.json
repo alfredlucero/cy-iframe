@@ -1,0 +1,38 @@
+{
+  "name": "cy-iframe",
+  "version": "1.0.0",
+  "description": "Cypress cy.iframe typed custom command to reach into iframes",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "cypress:open": "cypress open",
+    "build": "rm -rf dist && microbundle build -i src/index.ts -o dist/index.ts -f cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfredlucero/cy-iframe.git"
+  },
+  "keywords": [
+    "cypress",
+    "iframe",
+    "cyiframe",
+    "cy-iframe",
+    "cypress",
+    "iframe"
+  ],
+  "author": "Alfred Lucero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alfredlucero/cy-iframe/issues"
+  },
+  "homepage": "https://github.com/alfredlucero/cy-iframe#readme",
+  "devDependencies": {
+    "cypress": "^6.1.0",
+    "microbundle": "^0.12.4",
+    "typescript": "^4.1.2"
+  }
+}

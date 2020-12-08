@@ -1,2 +1,3 @@
 # cy-iframe
-cy.iframe typed custom command for reaching into iframes
+
+cy.iframe() typed Cypress custom command for reaching into iframes
