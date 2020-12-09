@@ -1,0 +1,15 @@
+{
+  "name": "samplecypressconsumerts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.1.0",
+    "typescript": "^4.1.2"
+  }
+}

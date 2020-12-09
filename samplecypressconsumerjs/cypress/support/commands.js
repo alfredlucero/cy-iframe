@@ -23,8 +23,7 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
-// Import the cy.iframe() custom command
-import "../../src";
+import "cy-iframe";
 
 Cypress.Commands.add("login", (username, password) => {
   cy.log("Logging in with username", username, " and password ", password);

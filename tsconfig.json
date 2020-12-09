@@ -3,7 +3,14 @@
     "module": "ESNext",
     "target": "ESNext",
     "lib": ["ESNext", "dom"],
-    "types": ["cypress"]
+    "types": ["cypress"],
+    "declaration": true,
+    "outDir": "dist"
   },
-  "include": ["src/**/*.ts", "types"]
+  "include": ["src/**/*.ts", "types/**/*.ts"],
+  "exclude": [
+    "node_modules",
+    "samplecypressconsumerjs",
+    "samplecypressconsumerts"
+  ]
 }
