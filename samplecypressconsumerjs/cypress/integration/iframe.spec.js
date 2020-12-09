@@ -1,3 +1,5 @@
+import { iframe } from "cy-iframe/iframe";
+
 context("iframe custom command", () => {
   before(() => {
     const testEnv = Cypress.env("testEnv");
@@ -28,5 +30,11 @@ context("iframe custom command", () => {
     cy.iframe("iframe[title='W3Schools HTML Tutorial']").within(() => {
       cy.get("a[title='CSS Tutorial']").click();
     });
+  });
+
+  it("should be able to import and use the iframe helper explicitly", () => {
+    cy.visit("https://www.w3schools.com/html/html_iframe.asp");
+    // Wait for body contents to load up within iframe
+    iframe("iframe[title='W3Schools HTML Tutorial']");
   });
 });

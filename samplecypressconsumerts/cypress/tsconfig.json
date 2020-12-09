@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es5",
     "lib": ["es5", "dom"],
-    "types": ["cypress", "cy-iframe/dist/types"]
+    "types": ["cypress", "cy-iframe/types"]
   },
   "include": ["**/*.ts"],
   "exclude": ["node_modules"]
