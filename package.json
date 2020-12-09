@@ -1,6 +1,6 @@
 {
   "name": "cy-iframe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cypress cy.iframe typed custom command to reach into iframes",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
