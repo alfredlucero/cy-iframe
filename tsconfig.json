@@ -9,7 +9,7 @@
     "esModuleInterop": true,
     "moduleResolution": "node"
   },
-  "include": ["**/*.ts"],
+  "include": ["src/**/*.ts", "types/**/*.ts"],
   "exclude": [
     "node_modules",
     "dist",
