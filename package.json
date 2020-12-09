@@ -5,9 +5,6 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": false,
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "cypress:open": "cypress open",
     "prebuild": "rm -rf dist",
