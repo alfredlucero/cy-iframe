@@ -28,7 +28,7 @@ If you are in a JavaScript project and would like to take advantage of Intellise
 {
   "include": [
     "node_modules/cypress",
-    "node_modules/cy-iframe/types",
+    "node_modules/cy-iframe/dist/types",
     "./cypress/**/*.js"
   ]
 }
@@ -43,7 +43,7 @@ If you are in a TypeScript project and use TypeScript in your Cypress tests, you
   "compilerOptions": {
     "target": "es5",
     "lib": ["es5", "dom"],
-    "types": ["cypress", "cy-iframe/types"]
+    "types": ["cypress", "cy-iframe/dist/types"]
   },
   "include": ["**/*.ts"]
 }
