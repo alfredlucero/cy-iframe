@@ -14,8 +14,9 @@
     "prebuild": "rm -rf dist",
     "build:tsc": "tsc",
     "build:assets": "microbundle build -i src/index.ts -o dist/index.js -f cjs",
+    "build:iframe:helper": "microbundle build -i src/iframe.ts -o dist/iframe.js -f cjs",
     "bundle:types": "cp -R ./types ./dist/",
-    "build": "npm run prebuild && npm run build:assets && npm run bundle:types",
+    "build": "npm run prebuild && npm run build:assets && npm run build:iframe:helper && npm run bundle:types",
     "postpublish": "git push --follow-tags"
   },
   "repository": {
