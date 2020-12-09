@@ -43,7 +43,7 @@ If you are in a TypeScript project and use TypeScript in your Cypress tests, you
   "compilerOptions": {
     "target": "es5",
     "lib": ["es5", "dom"],
-    "types": ["cypress", "cy-iframe/dist/types"]
+    "types": ["cypress", "cy-iframe/types"]
   },
   "include": ["**/*.ts"]
 }
