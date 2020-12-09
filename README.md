@@ -28,7 +28,7 @@ If you are in a JavaScript project and would like to take advantage of Intellise
 {
   "include": [
     "node_modules/cypress",
-    "node_modules/cy-iframe/dist/types",
+    "node_modules/cy-iframe/types",
     "./cypress/**/*.js"
   ]
 }

@@ -5,7 +5,7 @@ declare namespace Cypress {
     /**
      * Retrieve iframe's body content after it has loaded for us to chain like .find() after it
      * @example
-     * cy.iframe(iframeSelector).find(<element>)
+     * cy.iframe("iframe#someiframe").find(".some-element")
      */
     iframe(iframeSelector: string): Chainable<Subject>;
   }
