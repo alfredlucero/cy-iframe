@@ -3,11 +3,16 @@
   "version": "1.0.1",
   "description": "Cypress cy.iframe typed custom command to reach into iframes",
   "main": "dist/index.js",
+  "source": "src/index.ts",
   "types": "dist/index.d.ts",
   "private": false,
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "cypress:open": "cypress open",
     "prebuild": "rm -rf dist",
+    "build:tsc": "tsc",
     "build:assets": "microbundle build -i src/index.ts -o dist/index.js -f cjs",
     "bundle:types": "cp -R ./types ./dist/",
     "build": "npm run prebuild && npm run build:assets && npm run bundle:types",

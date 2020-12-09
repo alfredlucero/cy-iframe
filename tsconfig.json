@@ -1,15 +1,19 @@
 {
   "compilerOptions": {
-    "module": "ESNext",
     "target": "ESNext",
+    "module": "ESNext",
     "lib": ["ESNext", "dom"],
-    "types": ["cypress"],
     "declaration": true,
-    "outDir": "dist"
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node"
   },
-  "include": ["src/**/*.ts", "types/**/*.ts"],
+  "include": ["**/*.ts"],
   "exclude": [
     "node_modules",
+    "dist",
+    "cypress",
     "samplecypressconsumerjs",
     "samplecypressconsumerts"
   ]

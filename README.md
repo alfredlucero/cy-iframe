@@ -22,7 +22,7 @@ import "cy-iframe";
 
 ### JavaScript Project Intellisense with VSCode
 
-If you are in a JavaScript project and would like to take advantage of Intellisense with VSCode, the types should already be bundled with the package such that typing in `cy.iframe()` will show some auto-completion and types on hover to guide you. If you do not see the auto-completion Intellisense, you may need to add your own `jsconfig.json` file that looks something like this.
+If you are in a JavaScript project and would like to take advantage of Intellisense with VSCode, you will need to add your own `jsconfig.json` file that looks something like this.
 
 ```json
 {
